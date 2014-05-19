@@ -1,4 +1,4 @@
-module GeekHelper
+  module GeekHelper
   def start_date(item=nil)
     item ||= @item
     Time.parse item[:start]
