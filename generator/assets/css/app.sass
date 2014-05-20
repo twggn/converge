@@ -59,7 +59,7 @@
       span
         font-weight: normal
         display: inline-block
-        color: $blue
+        color: $yellow
 
 //
 // INTRO SECTION
@@ -67,7 +67,7 @@
 #intro
   $main-fg: $dark
   $main-bg: $white
-  $alt-fg: $blue
+  $alt-fg: $yellow
   +override-colors($main-fg,$main-bg)
   border-radius: 0
 
@@ -177,7 +177,7 @@
 //
 #agenda
   $main-fg: $dark
-  $main-bg: $blue
+  $main-bg: $yellow
   $alt-fg: $white
   +override-colors($main-fg,$main-bg)
 
@@ -254,7 +254,7 @@
       display: block
       padding-bottom: .5em
     a
-      color: $blue
+      color: $yellow
 
   @media #{$small}
     .address p
@@ -268,7 +268,7 @@
 #about
   $main-fg: $white
   $main-bg: $dark
-  $alt-fg: $blue
+  $alt-fg: $yellow
   +override-colors($main-fg,$main-bg)
   background-image: url(../img/dark-bg.jpg)
 
@@ -332,7 +332,7 @@
 #archive
   $main-fg: $dark
   $main-bg: $white
-  $alt-fg: $blue
+  $alt-fg: $yellow
   +override-colors($main-fg,$main-bg)
 
   .grid a
@@ -380,7 +380,7 @@
 #footer
   $main-fg: darken($topbar-bg-color, 30%)
   $main-bg: $topbar-bg-color
-  $alt-fg: lighten($blue, 15%)
+  $alt-fg: darken($yellow, 15%)
   +override-colors($main-fg,$main-bg)
 
   border-radius: 0

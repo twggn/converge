@@ -3,9 +3,10 @@
 $white: #FFFFFF;
 $dark: #222222;
 $blue: #00AEEF;
+$yellow: #b38600;
 
 $primary-color: $dark !default;
-$secondary-color: $blue !default;
+$secondary-color: $yellow !default;
 
 $base-font-size: 140% !default;
 $body-bg: $white !default;
@@ -25,7 +26,7 @@ $paragraph-line-height: 1.25 !default;
 
 $topbar-bg-color: darken($white, 5%);
 $topbar-link-color: $dark;
-$topbar-link-bg-hover: $blue;
+$topbar-link-bg-hover: $yellow;
 $topbar-title-weight: $body-font-weight !default;
 $topbar-link-weight: $body-font-weight !default;
 

@@ -1812,9 +1812,9 @@ th.hide-for-touch {
       .top-bar-section ul li > a.button:hover {
         background: #090909; }
     .top-bar-section ul li > a.button.secondary {
-      background: #00aeef; }
+      background: #b38600; }
       .top-bar-section ul li > a.button.secondary:hover {
-        background: #0089bc; }
+        background: #806000; }
     .top-bar-section ul li > a.button.success {
       background: #5da423; }
       .top-bar-section ul li > a.button.success:hover {
@@ -1824,7 +1824,7 @@ th.hide-for-touch {
       .top-bar-section ul li > a.button.alert:hover {
         background: #970b0e; }
   .top-bar-section ul li:hover > a {
-    background: #00aeef;
+    background: #b38600;
     color: white; }
   .top-bar-section ul li.active > a {
     background: #ebebeb;
@@ -1931,14 +1931,14 @@ th.hide-for-touch {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
-      background: #00aeef;
+      background: #b38600;
       color: white; }
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
       background: #f2f2f2; }
       .top-bar-section li a:not(.button):hover {
-        background: #00aeef; }
+        background: #b38600; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
       .top-bar-section .has-dropdown > a:after {
@@ -1999,7 +1999,7 @@ th.hide-for-touch {
         right: 100%; }
 
   .no-js .top-bar-section ul li:hover > a {
-    background: #00aeef;
+    background: #b38600;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
     background: #ebebeb;
@@ -2031,11 +2031,11 @@ button, .button {
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
-    background-color: #00aeef;
-    border-color: #0089bc;
+    background-color: #b38600;
+    border-color: #806000;
     color: white; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      background-color: #0089bc; }
+      background-color: #806000; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       color: white; }
   button.success, .button.success {
@@ -2097,19 +2097,19 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       background-color: #222222; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-      background-color: #00aeef;
-      border-color: #0089bc;
+      background-color: #b38600;
+      border-color: #806000;
       color: white;
       cursor: default;
       opacity: 0.6;
       -webkit-box-shadow: none;
       box-shadow: none; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #0089bc; }
+        background-color: #806000; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         color: white; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #00aeef; }
+        background-color: #b38600; }
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
       background-color: #5da423;
       border-color: #457a1a;
@@ -3636,7 +3636,7 @@ button, .button {
       #header .fixed .name h1 a span {
         font-weight: normal;
         display: inline-block;
-        color: #00aeef; }
+        color: #b38600; }
 
 #intro {
   color: #222222;
@@ -3671,11 +3671,11 @@ button, .button {
     -o-animation: flipInX 1s 0.5s ease both;
     animation: flipInX 1s 0.5s ease both; }
   #intro .logo h5.subheader {
-    color: #00aeef;
+    color: #b38600;
     font-size: 0.85em;
     margin: 1em 0 0 0; }
   #intro .countdown h4 {
-    color: #00aeef; }
+    color: #b38600; }
   #intro .countdown .date p {
     -webkit-animation: fadeInDown 1s 1s ease both;
     -moz-animation: fadeInDown 1s 1s ease both;
@@ -3769,8 +3769,8 @@ button, .button {
         -webkit-transition: background-color 300ms ease-out;
         -moz-transition: background-color 300ms ease-out;
         transition: background-color 300ms ease-out;
-        background-color: #00aeef;
-        border-color: #0089bc;
+        background-color: #b38600;
+        border-color: #806000;
         color: white;
         -webkit-border-radius: 3px;
         border-radius: 3px;
@@ -3778,7 +3778,7 @@ button, .button {
         padding: 0.25em;
         margin-bottom: 0.25em; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
-          background-color: #0089bc; }
+          background-color: #806000; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
           color: white; }
       @media only screen and (max-width: 768px) {
@@ -3790,13 +3790,13 @@ button, .button {
 
 #agenda {
   color: #222222;
-  background: #00aeef url(../img/white-bg.png); }
+  background: #b38600 url(../img/white-bg.png); }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda a, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
   #agenda .timings .row {
-    border-bottom: 1px dashed #89dfff;
+    border-bottom: 1px dashed #ffd24d;
     margin-bottom: 0;
     padding: 0.5em 0;
     overflow: hidden;
@@ -3854,7 +3854,7 @@ button, .button {
           top: 50%;
           margin-top: -1.5em; } }
     #agenda .timings .row:hover {
-      background-color: #23c3ff; }
+      background-color: #e6ac00; }
 
 #location {
   color: white;
@@ -3870,7 +3870,7 @@ button, .button {
     display: block;
     padding-bottom: 0.5em; }
   #location .address a {
-    color: #00aeef; }
+    color: #b38600; }
   @media only screen and (min-width: 768px) {
     #location .address p {
       text-align: right; }
@@ -3915,7 +3915,7 @@ button, .button {
       left: 50%; }
     #about .social a:hover, #about .social a:focus {
       color: white;
-      background-color: #00aeef; }
+      background-color: #b38600; }
       #about .social a:hover i, #about .social a:focus i {
         -webkit-animation: flip 1s 0s ease both;
         -moz-animation: flip 1s 0s ease both;
@@ -3933,7 +3933,7 @@ button, .button {
     #about blockquote small, #about blockquote #archive .grid a .year, #archive .grid a #about blockquote .year {
       font-size: 0.8125em; }
     #about blockquote a {
-      color: #00aeef; }
+      color: #b38600; }
     #about blockquote cite {
       margin: 0.25em 0;
       text-align: right; }
@@ -3957,7 +3957,7 @@ button, .button {
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s; }
     #archive .grid a:hover {
-      background-color: #00aeef; }
+      background-color: #b38600; }
     #archive .grid a .month {
       color: white;
       line-height: 1.5em;
@@ -3994,4 +3994,4 @@ button, .button {
     #footer .row p {
       line-height: 1em; }
       #footer .row p a {
-        color: #3dcaff; }
+        color: #664d00; }
