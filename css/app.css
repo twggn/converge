@@ -3613,6 +3613,15 @@ button, .button {
 @media only screen and (max-width: 768px) {
   body {
     font-size: 112.5%; } }
+body {
+  height: 100%; }
+
+html {
+  height: 100%; }
+
+section {
+  min-height: 100%; }
+
 .feature {
   padding: 1em 0 2em 0;
   position: relative;
@@ -3878,6 +3887,7 @@ button, .button {
       border-radius: 0 0.5em 0.5em 0; } }
 
 #about {
+  padding-top: 2em;
   color: white;
   background: #222222 url(../img/white-bg.png);
   background-image: url(../img/dark-bg.jpg); }
@@ -3940,7 +3950,8 @@ button, .button {
 
 #archive {
   color: #222222;
-  background: white url(../img/white-bg.png); }
+  background: white url(../img/white-bg.png);
+  background: url("../img/white-bg-thatch.png"); }
   #archive h1, #archive h2, #archive h3, #archive .grid a .day, #archive h4, #archive h5, #archive h6, #archive .grid a .month, #archive .subheader, #archive p, #archive blockquote, #archive a, #archive small, #archive .grid a .year {
     color: #222222; }
   #archive code, #archive abbr, #archive acronym {
@@ -3982,6 +3993,7 @@ button, .button {
 #footer {
   color: #a6a6a6;
   background: #f2f2f2 url(../img/white-bg.png);
+  background: #f2f2f2;
   border-radius: 0;
   margin-top: 0;
   padding: 0.5em 0; }
