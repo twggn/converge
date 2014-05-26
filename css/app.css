@@ -3799,15 +3799,17 @@ section {
 
 #agenda {
   color: #222222;
-  background: #b38600 url(../img/white-bg.png); }
+  background: #b38600 url(../img/white-bg.png);
+  background: white url("../img/white-bg-thatch.png"); }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda a, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
   #agenda .timings .row {
-    border-bottom: 1px dashed #ffd24d;
+    border-left: solid 5px #ffdf80;
+    border-bottom: 1px dashed #b38600;
     margin-bottom: 0;
-    padding: 0.5em 0;
+    padding: 0.5em;
     overflow: hidden;
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
@@ -3836,24 +3838,24 @@ section {
       #agenda .timings .row p {
         margin-bottom: 0; }
       #agenda .timings .row .time {
-        -webkit-transform-origin: 100% 50%;
-        -moz-transform-origin: 100% 50%;
-        -ms-transform-origin: 100% 50%;
-        -o-transform-origin: 100% 50%;
-        transform-origin: 100% 50%;
-        text-align: right; }
+        -webkit-transform-origin: 0% 100%;
+        -moz-transform-origin: 0% 100%;
+        -ms-transform-origin: 0% 100%;
+        -o-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+        text-align: left; }
         #agenda .timings .row .time p:after {
           display: block;
           content: "\00A7";
           position: absolute;
           top: 0;
-          right: -0.25em; }
+          left: 0.25em; }
       #agenda .timings .row .summary {
-        -webkit-transform-origin: 0% 50%;
-        -moz-transform-origin: 0% 50%;
-        -ms-transform-origin: 0% 50%;
-        -o-transform-origin: 0% 50%;
-        transform-origin: 0% 50%;
+        -webkit-transform-origin: 100% 0%;
+        -moz-transform-origin: 100% 0%;
+        -ms-transform-origin: 100% 0%;
+        -o-transform-origin: 100% 0%;
+        transform-origin: 100% 0%;
         text-align: left; }
         #agenda .timings .row .summary p {
           padding-right: 3.15em; }
@@ -3863,7 +3865,7 @@ section {
           top: 50%;
           margin-top: -1.5em; } }
     #agenda .timings .row:hover {
-      background-color: #e6ac00; }
+      background-color: #ffdf80; }
 
 #location {
   color: white;

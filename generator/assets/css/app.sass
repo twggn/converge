@@ -185,13 +185,16 @@ section
   $main-fg: $dark
   $main-bg: $yellow
   $alt-fg: $white
+
   +override-colors($main-fg,$main-bg)
+  background: lighten($main-bg, 70%) url("../img/white-bg-thatch.png")
 
   .timings
     .row
-      border-bottom: 1px dashed lighten($main-bg, 30%)
+      border-left: solid 5px lighten($main-bg, 40%)
+      border-bottom: 1px dashed $main-bg
       margin-bottom: 0
-      padding: .5em 0
+      padding: .5em
       overflow: hidden
       +single-transition(background-color)
 
@@ -220,17 +223,17 @@ section
           margin-bottom: 0
 
         .time
-          +experimental(transform-origin, 100% 50%)
-          text-align: right
+          +experimental(transform-origin, 0% 100%)
+          text-align: left
           p:after
             display: block
             content: '\00A7'
             position: absolute
             top: 0
-            right: -.25em
+            left: .25em
 
         .summary
-          +experimental(transform-origin, 0% 50%)
+          +experimental(transform-origin, 100% 0%)
           text-align: left
           p
             padding-right: 3.15em
@@ -241,7 +244,7 @@ section
             margin-top: -1.5em
 
       &:hover
-        background-color: lighten($main-bg, 10%)
+        background-color: lighten($main-bg, 40%)
 
 //
 // LOCATION SECTION
