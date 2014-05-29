@@ -3953,7 +3953,9 @@ section {
 #archive {
   color: #222222;
   background: white url(../img/white-bg.png);
-  background: url("../img/white-bg-thatch.png"); }
+  background: url("../img/previous.png");
+  background-position: center;
+  background-size: cover; }
   #archive h1, #archive h2, #archive h3, #archive .grid a .day, #archive h4, #archive h5, #archive h6, #archive .grid a .month, #archive .subheader, #archive p, #archive blockquote, #archive a, #archive small, #archive .grid a .year {
     color: #222222; }
   #archive code, #archive abbr, #archive acronym {
