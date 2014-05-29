@@ -3650,6 +3650,8 @@ section {
 #intro {
   color: #222222;
   background: white url(../img/white-bg.png);
+  background: url("../img/main-64.png");
+  background-size: cover;
   border-radius: 0; }
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro a, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
     color: #222222; }
@@ -3658,6 +3660,10 @@ section {
   @media only screen and (min-width: 768px) {
     #intro {
       margin-top: 45px; } }
+  #intro .row {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+    padding: 1em 0; }
   #intro .logo img {
     display: inline-block;
     margin: 0 auto;
@@ -3680,7 +3686,7 @@ section {
     -o-animation: flipInX 1s 0.5s ease both;
     animation: flipInX 1s 0.5s ease both; }
   #intro .logo h5.subheader {
-    color: #b38600;
+    color: #f3002a;
     font-size: 0.85em;
     margin: 1em 0 0 0; }
   #intro .countdown h4 {
@@ -3800,7 +3806,7 @@ section {
 #agenda {
   color: #222222;
   background: #b38600 url(../img/white-bg.png);
-  background: white url("../img/white-bg-thatch.png"); }
+  background: #dee3f1 url("../img/white-bg-thatch.png"); }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda a, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda code, #agenda abbr, #agenda acronym {
@@ -3960,6 +3966,10 @@ section {
     color: #222222; }
   #archive code, #archive abbr, #archive acronym {
     color: black; }
+  #archive .row {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+    padding: 1em 0; }
   #archive .grid a {
     display: block;
     overflow: hidden;

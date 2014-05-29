@@ -75,11 +75,16 @@ section
   $main-bg: $white
   $alt-fg: $yellow
   +override-colors($main-fg,$main-bg)
+  background: url("../img/main.png")
+  background-size: cover
   border-radius: 0
 
   @media #{$small}
     margin-top: $topbar-height
-
+  .row
+    background-color: rgba(255,255,255,0.7)
+    margin-bottom: 0
+    padding: 1em 0
   .logo
     img
       display: inline-block
@@ -94,7 +99,7 @@ section
       +animate(flipInX, 1s, .5s)
 
     h5.subheader
-      $subheader-color: darken($alt-fg, 0%)
+      $subheader-color: darken($pink, 40%)
       color: $subheader-color
       font-size: 0.85em
       margin: 1em 0 0 0
@@ -187,7 +192,7 @@ section
   $alt-fg: $white
 
   +override-colors($main-fg,$main-bg)
-  background: lighten($main-bg, 70%) url("../img/white-bg-thatch.png")
+  background: $merged-bg url("../img/white-bg-thatch.png")
 
   .timings
     .row
@@ -347,7 +352,10 @@ section
   background: url("../img/previous.png")
   background-position: center
   background-size: cover
-
+  .row
+    background-color: rgba(255,255,255,0.7)
+    margin-bottom: 0
+    padding: 1em 0
   .grid a
     display: block
     overflow: hidden
