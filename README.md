@@ -1,5 +1,4 @@
-
-# Scala Workshop Gurgaon
+# Geek Night Gurgaon
 
 an open forum for geeks to connect, discuss &amp; learn latest ideas, technologies and trends in software development
 
@@ -36,4 +35,3 @@ For ease, there is a Guardfile. You can run `bundle exec guard`, it will keep wa
 * Used [colourlovers.com](//colourlovers.com) for the color swatches.
 * Using [SASS](//sass-lang.com) and [Foundation](//foundation.zurb.com) for all the Styling.
 * Icon fonts were generated and downloaded from [Fontello](//fontello.com). Only icons from the *Modern Pictogram* set were used for consistency.
-
