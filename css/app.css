@@ -3635,6 +3635,8 @@ section {
 #header {
   padding: 0;
   background: #f2f2f2; }
+  #header .top-bar-section {
+    margin-left: 270px; }
   #header .fixed {
     opacity: 0.75; }
     @media only screen and (max-width: 768px) {

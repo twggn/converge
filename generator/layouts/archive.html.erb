@@ -8,6 +8,14 @@
                 </a>
                 <h1>Geek Night Gurgaon</h1>
                 <h5>Flashback</h5>
+                <% if @item[:subheader] %>
+                    <h5 class="subheader">
+                        <%= @item[:subheader] %> <br />
+                        <% if @item[:subnote] %>
+                            <small><%= @item[:subnote] %></small>
+                        <% end %>
+                    </h5>
+                <% end %>
             </div>
         </div>
 
