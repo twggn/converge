@@ -74,9 +74,9 @@ section
 #intro
   $main-fg: $dark
   $main-bg: $white
-  $alt-fg: $yellow
+  $alt-fg: $orange  
   +override-colors($main-fg,$main-bg)
-  background: url("../img/main.png")
+  background: url("../img/banner.jpg")
   background-size: cover
   border-radius: 0
 
@@ -87,17 +87,27 @@ section
     margin-bottom: 0
     padding: 1em 0
   .logo
+    .tw-logo
+      display: block
+      &:hover
+        +animate(bounce, 1s)
+  
+    #intro-desc
+      background-color: rgba(0, 0, 0, 0.8)
+
+      h1
+        +animate(bounceInRight, 1s, 0s)
+        color: #fff
+
     img
       display: inline-block
       margin: 0 auto
       height: 2em
       +animate(bounceInLeft, 1s, 0s)
 
-    h1
-      +animate(bounceInRight, 1s, 0s)
-
     h5
       +animate(flipInX, 1s, .5s)
+      color: #fff
 
     h5.subheader
       $subheader-color: darken($pink, 40%)
@@ -283,6 +293,7 @@ section
 #about
   $main-fg: $white
   padding-top: 2em
+  min-height: 0%
   $main-bg: $dark
   $alt-fg: $yellow
   +override-colors($main-fg,$main-bg)

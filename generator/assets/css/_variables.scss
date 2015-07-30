@@ -4,17 +4,18 @@ $white: #FFFFFF;
 $dark: #222222;
 $blue: #00AEEF;
 $yellow: #b38600;
+$orange: #F06819;
 $pink: pink;
 $merged-bg: rgb(222,227,241);
 
 $primary-color: $dark !default;
-$secondary-color: $yellow !default;
+$secondary-color: $orange !default;
 
 $base-font-size: 140% !default;
 $body-bg: $white !default;
 $body-font-color: $dark !default;
 $body-font-weight: 300 !default;
-$body-font-family: "Segoe UI Light", Helvetica, "Segoe UI", Arial, sans-serif !default;
+$body-font-family: 'Open Sans', sans-serif !default;
 
 $header-top-margin: 0 !default;
 $header-bottom-margin: .1em !default;

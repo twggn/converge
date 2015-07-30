@@ -369,7 +369,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Segoe UI Light", Helvetica, "Segoe UI", Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 1;
@@ -497,7 +497,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, #archive .grid a .day, h4, h5, h6, #archive .grid a .month {
-  font-family: "Segoe UI Light", Helvetica, "Segoe UI", Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #222222;
@@ -1812,9 +1812,9 @@ th.hide-for-touch {
       .top-bar-section ul li > a.button:hover {
         background: #090909; }
     .top-bar-section ul li > a.button.secondary {
-      background: #b38600; }
+      background: #f06819; }
       .top-bar-section ul li > a.button.secondary:hover {
-        background: #806000; }
+        background: #c9520d; }
     .top-bar-section ul li > a.button.success {
       background: #5da423; }
       .top-bar-section ul li > a.button.success:hover {
@@ -2031,11 +2031,11 @@ button, .button {
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
-    background-color: #b38600;
-    border-color: #806000;
+    background-color: #f06819;
+    border-color: #c9520d;
     color: white; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      background-color: #806000; }
+      background-color: #c9520d; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       color: white; }
   button.success, .button.success {
@@ -2097,19 +2097,19 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       background-color: #222222; }
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-      background-color: #b38600;
-      border-color: #806000;
+      background-color: #f06819;
+      border-color: #c9520d;
       color: white;
       cursor: default;
       opacity: 0.6;
       -webkit-box-shadow: none;
       box-shadow: none; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #806000; }
+        background-color: #c9520d; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         color: white; }
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #b38600; }
+        background-color: #f06819; }
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
       background-color: #5da423;
       border-color: #457a1a;
@@ -3652,7 +3652,7 @@ section {
 #intro {
   color: #222222;
   background: white url(../img/white-bg.png);
-  background: url("../img/main.png");
+  background: url("../img/banner.jpg");
   background-size: cover;
   border-radius: 0; }
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro a, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
@@ -3666,6 +3666,23 @@ section {
     background-color: rgba(255, 255, 255, 0.7);
     margin-bottom: 0;
     padding: 1em 0; }
+  #intro .logo .tw-logo {
+    display: block; }
+    #intro .logo .tw-logo:hover {
+      -webkit-animation: bounce 1s 0s ease both;
+      -moz-animation: bounce 1s 0s ease both;
+      -ms-animation: bounce 1s 0s ease both;
+      -o-animation: bounce 1s 0s ease both;
+      animation: bounce 1s 0s ease both; }
+  #intro .logo #intro-desc {
+    background-color: rgba(0, 0, 0, 0.8); }
+    #intro .logo #intro-desc h1 {
+      -webkit-animation: bounceInRight 1s 0s ease both;
+      -moz-animation: bounceInRight 1s 0s ease both;
+      -ms-animation: bounceInRight 1s 0s ease both;
+      -o-animation: bounceInRight 1s 0s ease both;
+      animation: bounceInRight 1s 0s ease both;
+      color: white; }
   #intro .logo img {
     display: inline-block;
     margin: 0 auto;
@@ -3675,24 +3692,19 @@ section {
     -ms-animation: bounceInLeft 1s 0s ease both;
     -o-animation: bounceInLeft 1s 0s ease both;
     animation: bounceInLeft 1s 0s ease both; }
-  #intro .logo h1 {
-    -webkit-animation: bounceInRight 1s 0s ease both;
-    -moz-animation: bounceInRight 1s 0s ease both;
-    -ms-animation: bounceInRight 1s 0s ease both;
-    -o-animation: bounceInRight 1s 0s ease both;
-    animation: bounceInRight 1s 0s ease both; }
   #intro .logo h5 {
     -webkit-animation: flipInX 1s 0.5s ease both;
     -moz-animation: flipInX 1s 0.5s ease both;
     -ms-animation: flipInX 1s 0.5s ease both;
     -o-animation: flipInX 1s 0.5s ease both;
-    animation: flipInX 1s 0.5s ease both; }
+    animation: flipInX 1s 0.5s ease both;
+    color: white; }
   #intro .logo h5.subheader {
     color: #f3002a;
     font-size: 0.85em;
     margin: 1em 0 0 0; }
   #intro .countdown h4 {
-    color: #b38600; }
+    color: #f06819; }
   #intro .countdown .date p {
     -webkit-animation: fadeInDown 1s 1s ease both;
     -moz-animation: fadeInDown 1s 1s ease both;
@@ -3786,8 +3798,8 @@ section {
         -webkit-transition: background-color 300ms ease-out;
         -moz-transition: background-color 300ms ease-out;
         transition: background-color 300ms ease-out;
-        background-color: #b38600;
-        border-color: #806000;
+        background-color: #f06819;
+        border-color: #c9520d;
         color: white;
         -webkit-border-radius: 3px;
         border-radius: 3px;
@@ -3795,7 +3807,7 @@ section {
         padding: 0.25em;
         margin-bottom: 0.25em; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
-          background-color: #806000; }
+          background-color: #c9520d; }
         #intro .actions a h4:hover, #intro .actions a h4:focus {
           color: white; }
       @media only screen and (max-width: 768px) {
@@ -3898,6 +3910,7 @@ section {
 
 #about {
   padding-top: 2em;
+  min-height: 0%;
   color: white;
   background: #222222 url(../img/white-bg.png);
   background-image: url(../img/dark-bg.jpg); }
