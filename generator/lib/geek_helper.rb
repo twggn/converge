@@ -14,7 +14,7 @@
 
   def archives
     events.select do |event|
-      event[:edition] < @item[:edition]
+      event[:edition] < @item[:edition] unless @item.identifier.include?("participate") || @item.identifier.include?("speaker")
     end[0..11]
   end
 
