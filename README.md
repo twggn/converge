@@ -1,6 +1,6 @@
-# Converge NCR
+# Geek Night Gurgaon
 
-Converge aims to provide an interactive platform for Business Analysts, Project Managers and Product Managers to connect, share experiences and learn.
+an open forum for geeks to connect, discuss &amp; learn latest ideas, technologies and trends in software development
 
 # Development
 
