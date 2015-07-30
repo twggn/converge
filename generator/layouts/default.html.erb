@@ -1,14 +1,14 @@
 <% render '_layout', title: start_date.strftime("%b %Y") do %>
     <section id="intro" class="feature">
         <div class="row logo">
-            <div class="large-12 columns">
+            <div id="intro-desc" class="large-12 columns">
                 <a href="http://www.thoughtworks.com" target="_blank"
-                   onclick="ga('send', 'event', 'tw', 'tw')">
-                    <img src="./img/tw-logo.png" alt="ThoughtWorks" align="center" />
+                   onclick="ga('send', 'event', 'tw', 'tw')" class="tw-logo">
+                    <img src="./img/tw-logo-white.png" alt="ThoughtWorks" align="center" />
                 </a>
-                <h1>Geek Night Gurgaon</h1>
+                <h1>Converge Gurgaon</h1>
 
-                <h5>an open forum for geeks to connect, discuss &amp; learn latest ideas, technologies and trends in software development</h5>
+                <h6>Converge aims to bring together ideators, designers, business analysts, solution providers, technologists, product managers and project and program managers to connect, collaborate and learn from each other.</h6>
 
                 <% if @item[:subheader] %>
                     <h5 class="subheader">

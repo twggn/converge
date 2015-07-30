@@ -1,6 +1,6 @@
-# Geek Night Gurgaon
+# Converge Gurgaon
 
-an open forum for geeks to connect, discuss &amp; learn latest ideas, technologies and trends in software development
+forum to bring together ideators, designers, business analysts, solution providers, technologists, product managers and project and program managers to connect, collaborate and learn from each other
 
 # Development
 

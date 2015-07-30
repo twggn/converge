@@ -1,6 +1,7 @@
 # common
 *.bak
 *.orig
+.idea/
 
 # sublime
 *.sublime-workspace
