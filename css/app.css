@@ -3699,6 +3699,8 @@ section {
     -o-animation: flipInX 1s 0.5s ease both;
     animation: flipInX 1s 0.5s ease both;
     color: white; }
+  #intro .logo h6, #intro .logo #archive .grid a .month, #archive .grid a #intro .logo .month {
+    color: white; }
   #intro .logo h5.subheader {
     color: #f3002a;
     font-size: 0.85em;
