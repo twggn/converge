@@ -3741,7 +3741,8 @@ section {
     font-size: 0.85em;
     margin: 1em 0 0 0; }
   #intro .countdown h4 {
-    color: #f06819; }
+    color: #f06819;
+    text-transform: capitalize; }
   #intro .countdown .date p {
     -webkit-animation: fadeInDown 1s 1s ease both;
     -moz-animation: fadeInDown 1s 1s ease both;

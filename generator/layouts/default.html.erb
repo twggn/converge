@@ -52,7 +52,7 @@
         <div class="row actions">
             <div class="large-5 columns participate">
                 <% if item[:participate] %>
-                    <a href="<%= @item[:participate] %>" target="_blank" rel="nofollow"
+                    <a href="<%= @item[:participate] %>"  rel="nofollow"
                        onclick="ga('send', 'event', 'participate', 'participate')">
                         <h4>Participate</h4>
                     </a>
@@ -79,7 +79,7 @@
             </div>
             <div class="large-5 columns talk">
                 <% if item[:talk] %>
-                    <a href="<%= @item[:talk] %>" target="_blank" rel="nofollow"
+                    <a href="<%= @item[:talk] %>" rel="nofollow"
                        onclick="ga('send', 'event', 'talk', 'talk')">
                         <h4>Present</h4>
                     </a>
