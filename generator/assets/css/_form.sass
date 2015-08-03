@@ -8,7 +8,9 @@ section#form h1
   padding: 20px
   .mktoFormRow
     margin: 10px
-    input
+    input,textarea
+      border: 0
+      border-bottom: 2px solid #f0f8ff
       //border: 1px solid #c0c0c0
       //border-bottom: 2px solid #b3d4fc
       &:focus
@@ -29,4 +31,12 @@ section#form h1
     textarea
       width: 200px !important
 
+
+
+@media only screen and (max-width: 480px)
+  #mktoForm_3208, #mktoForm_3209
+    width: 320px !important
+    //.mktoFormRow
+      //textarea
+        //width: 100% !important
 

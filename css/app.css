@@ -3618,10 +3618,13 @@ section#form h1 {
   padding: 20px; }
   #mktoForm_3208 .mktoFormRow, #mktoForm_3209 .mktoFormRow {
     margin: 10px; }
-    #mktoForm_3208 .mktoFormRow input:focus, #mktoForm_3209 .mktoFormRow input:focus {
-      border: none;
-      outline: none;
-      border-bottom: 2px solid #00aeef; }
+    #mktoForm_3208 .mktoFormRow input, #mktoForm_3208 .mktoFormRow textarea, #mktoForm_3209 .mktoFormRow input, #mktoForm_3209 .mktoFormRow textarea {
+      border: 0;
+      border-bottom: 2px solid aliceblue; }
+      #mktoForm_3208 .mktoFormRow input:focus, #mktoForm_3208 .mktoFormRow textarea:focus, #mktoForm_3209 .mktoFormRow input:focus, #mktoForm_3209 .mktoFormRow textarea:focus {
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #00aeef; }
     #mktoForm_3208 .mktoFormRow .mktoLabel, #mktoForm_3209 .mktoFormRow .mktoLabel {
       width: 150px !important;
       padding-top: 10px;
@@ -3636,6 +3639,9 @@ section#form h1 {
     #mktoForm_3208 .mktoFormRow textarea, #mktoForm_3209 .mktoFormRow textarea {
       width: 200px !important; }
 
+@media only screen and (max-width: 480px) {
+  #mktoForm_3208, #mktoForm_3209 {
+    width: 320px !important; } }
 @media only screen and (max-width: 1280px) {
   body {
     font-size: 125%; } }
