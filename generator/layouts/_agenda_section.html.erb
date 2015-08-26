@@ -22,13 +22,13 @@
                     <p><img src="img/speaker/<%= agenda[:image] %>" alt="<%= agenda[:speaker] %>" /></p>
                 <% end %>
                 <% if agenda[:speaker] %>
-                    <p><small><b><em>By: 
+                    <p><small><b>By: 
                     <% if agenda[:profile] %>
                     <a href="<%= agenda[:profile] %>" rel="nofollow" target="_blank"><%= agenda[:speaker] %></a>
                     <% else %>
                         <%= agenda[:speaker] %>
                     <% end %>
-                    </em></b></small></p>
+                    </b></small></p>
                 <% end %>
                 <% if agenda[:resources] %>
                     <p><small>Resources:
