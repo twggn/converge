@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <!--<div class="row actions">
+        <div class="row actions">
             <div class="large-5 columns participate">
                 <% if item[:participate] %>
                     <a href="<%= @item[:participate] %>"  rel="nofollow"
@@ -72,14 +72,14 @@
                         </p>
                     <% end %>
                 <% end %>
-            </div>-->
-            <!-- ><div class="large-2 columns participate-or-talk">
+            </div>
+            <div class="large-2 columns participate-or-talk">
                 <hr class="show-for-small" />
                 <h6 class="hide-for-small delimiter">&laquo; or &raquo;</h6>
-            </div> -->
-            <!-- <div class="large-5 columns talk">
+            </div>
+            <div class="large-5 columns talk">
                 <% if item[:talk] %>
-                    <a href="<%= @item[:talk] %>" rel="nofollow"
+                    <a href="<%= @item[:talk] %>" target=_blank rel="nofollow"
                        onclick="ga('send', 'event', 'talk', 'talk')">
                         <h4>Present</h4>
                     </a>
@@ -92,7 +92,7 @@
                         <small>(please check out in a few days)</small>
                     </p>
                 <% end %>
-            </div> -->
+            </div>
         </div>
     </section>
 
