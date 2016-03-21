@@ -1,0 +1,31 @@
+<section id="speakers" class="feature">
+  <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
+    <h2>Speakers</h2>
+  </div>
+  <div class="row">
+    <% [:left, :right].each do |align| %>
+      <div class="large-5 large-1-offset columns">
+        <% @item[:speaker][align] && @item[:speaker][align].each_with_index do |speaker, i| %>
+          <div class="row" height="100" weight="100">
+            <% if speaker[:speaker_image] %>
+              <div class="speaker-image"><img src="./img/speaker/<%=speaker[:speaker_image]%>" title=<%=speaker[:name]%> alt=<%=speaker[:name]%> width=100% height="auto"></div>
+            <% end%>
+            <div class="speaker-name">
+              <% if speaker[:link] %>
+                <a href="<%=speaker[:link]%>">
+                  <%= speaker[:name] %>
+                </a>
+              <% else %>
+                <%= speaker[:name] %>
+              <% end %>
+            </div>
+            <% if speaker[:designation] %>
+              <div class="speaker-designation"><%= speaker[:designation] %></div>
+            <% end %> 
+            <p class="speaker-description"><%= speaker[:description] %></p>
+          </div>
+        <% end %>
+      </div>
+    <% end %> 
+  </div>
+</section>

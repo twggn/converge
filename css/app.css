@@ -3925,6 +3925,34 @@ section {
     #agenda .timings .row:hover {
       background-color: #ffdf80; }
 
+#speakers {
+  padding: 0.5em; }
+  #speakers .speaker-name {
+    text-align: left;
+    font-weight: 400;
+    margin-left: 65px; }
+    #speakers .speaker-name a {
+      color: #f06819; }
+  #speakers .speaker-designation {
+    text-align: left;
+    font-size: 0.5em;
+    font-style: italic;
+    margin-top: 0.2em;
+    margin-left: 65px; }
+  #speakers .speaker-description {
+    text-align: left;
+    margin-top: 0.4em; }
+  #speakers .speaker-image {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: inline-block;
+    float: left; }
+    #speakers .speaker-image img {
+      border-radius: 50px;
+      height: 50px;
+      width: 50px; }
+
 #location {
   color: white;
   background: #222222 url(../img/white-bg.png);
