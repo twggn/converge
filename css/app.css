@@ -3807,6 +3807,8 @@ section {
   #intro .actions {
     padding-top: 1em; }
     #intro .actions .participate {
+      margin: 0 auto;
+      float: none;
       -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
       -moz-animation: rotateInUpLeft 1s 1.5s ease both;
       -ms-animation: rotateInUpLeft 1s 1.5s ease both;
