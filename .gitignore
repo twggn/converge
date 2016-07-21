@@ -26,6 +26,7 @@ Icon
 .sass-cache
 
 # Nanoc
+generator/vendor/
 generator/tmp
 generator/output
 *.log
